@@ -16,7 +16,9 @@ import java.util.Set;
  * 3.在后位置如果出现了前位置重复的字符，也是会覆盖掉他的value值得
  *
  * 4.map存在主要作用是提供不停更新每个字符得最新位置信息，帮助start指针滑动
- */
+ *
+ * 5.与讲数据存入set里面时，不同的是set里面存的是不重复的字符，通过判断set的长度来判断整体的长度
+ * */
 public class Test {
     public static int lengthOfLongestSubstring(String s) {
         int start =0;
